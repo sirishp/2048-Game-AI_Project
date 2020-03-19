@@ -21,7 +21,9 @@ The First Order Logic was implemented with a prolog. It helps us understand how 
 ### Heuristics Considered:
 
 1.Check for empty tiles,this should be done because the agent can have an idea what move to choose so that he can maintain more empty spaces.
+
 2.Property of monotonicity - this is evaluated so that there is no high value that is present in between two small values making it harder to combine the tiles. 
+
 3.Making sure that the maximum tile is in the corner of the grid, it helps to get a maximum score.
 
 
